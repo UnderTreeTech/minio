@@ -168,7 +168,7 @@ const (
 	globalMaxObjectSize = 5 * humanize.TiByte
 
 	// Minimum Part size for multipart upload is 5MiB
-	globalMinPartSize = 5 * humanize.MiByte
+	globalMinPartSize = 1 * humanize.MByte
 
 	// Maximum Part size for multipart upload is 5GiB
 	globalMaxPartSize = 5 * humanize.GiByte
