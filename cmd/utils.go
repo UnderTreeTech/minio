@@ -167,8 +167,8 @@ const (
 	// using 'curl' and presigned URL.
 	globalMaxObjectSize = 5 * humanize.TiByte
 
-	// Minimum Part size for multipart upload is 5MiB
-	globalMinPartSize = 1 * humanize.MByte
+	// Minimum Part size for multipart upload is 1K
+	globalMinPartSize = 1 * humanize.KiByte
 
 	// Maximum Part size for multipart upload is 5GiB
 	globalMaxPartSize = 5 * humanize.GiByte
